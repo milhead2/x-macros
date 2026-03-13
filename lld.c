@@ -15,7 +15,7 @@
 const lTable_t gt[NUM_LLL] =
 {
     #define LLL(name, p1, p2, p3)    \
-    { "TT_" #name,  p1, p2, p3 },
+    { "TT_" #name,  TT_##name, p1, p2, p3 },
     #include "ll.h"
     #undef LLL
 };

@@ -24,6 +24,7 @@ typedef enum {
 
 typedef struct {
     const char *name;
+    LLL_t type;
     int p1;
     int p2; 
     int p3;
